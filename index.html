@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<title>Festor</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-custom.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<div class="container1 preloader">
+	
+		<svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+			<circle cx="170" cy="170" r="160" stroke="#E2007C" />
+			<circle cx="170" cy="170" r="135" stroke="#404041" />
+			<circle cx="170" cy="170" r="110" stroke="#E2007C" />
+			<circle cx="170" cy="170" r="85" stroke="#404041" />
+		</svg>
+	
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div><!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<section class="page_toplogo ls s-pt-45 s-pb-40 d-none d-lg-block">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-3">
+							<div class="">
+								<a href="./" class="logo">
+									<img src="images/logo.png" alt="img">
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="d-flex justify-content-center">
+								<div class="media header-media">
+									<div class="media-body">
+										<h4>
+											E-mail
+										</h4>
+										<p>
+											<a href="mailto:biuro@festor.com.pl">biuro@festor.com.pl</a>
+										</p>
+									</div>
+								</div>
+
+								<div class="media header-media">
+									<div class="media-body">
+										<h4>
+											Godziny otwarcia
+										</h4>
+										<p>
+											8.00 - 20.00
+										</p>
+									</div>
+								</div>
+
+								<div class="media header-media">
+									<div class="media-body">
+										<h4>
+											telefon
+										</h4>
+										<p>
+											<a href="tel:+48507029815" style="color: #97c139; font-weight: 700;">+48 507 029 816</a>
+										</p>
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--eof topline-->
+			<!-- header with two Bootstrap columns - left for logo and right for navigation and includes (search, social icons, additional links and buttons etc -->
+			<header class="page_header ls bg-maincolor4 main-style">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-xl-12">
+							<div class="nav-wrap header-main">
+								<a href="./" class="logo logo-ds">
+									<img src="images/logo_ds.png" alt="img">
+								</a>
+								<!-- main nav start -->
+								<nav class="top-nav">
+									<ul class="nav sf-menu">
+										<li>
+											<a href="#box_wrapper">Home</a>
+										</li>
+										<li>
+											<a href="#offer">Oferta</a>
+										</li>
+										<li>
+											<a href="#progress">O nas</a>
+										</li>
+										<li>
+											<a href="#featured">Galeria</a>
+										</li>
+										<li>
+											<a href="#why">Kontakt</a>
+										</li>
+									</ul>
+									
+								</nav>
+								<!-- eof main nav -->
+								<li class="icon-inline">
+								<div class="icon-styled icon-top color-main4 fs-24" style="margin-left: 20px;">
+									<a href="https://www.facebook.com/FestorCanis" target="_blank">
+										<i class="fa fa-facebook-square"></i>
+									</a>
+								</div>
+								</li>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- header toggler -->
+				<span class="toggle_menu"><span></span></span>
+			</header>
+
+			<section class="page_slider home_slider">
+				<div class="flexslider vertical">
+					<ul class="slides">
+						<li class="ds s-overlay cover-image text-center">
+							<img src="images/slide01.jpg" alt="img">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="intro_layers_wrapper intro_text_bottom">
+											<div class="intro_layers">
+												<div class="intro-layer">
+													<h2 style="color: #97c139;">
+														O nas
+													</h2>
+												</div>
+												<div class="intro-layer hidden-below-sm mt-22">
+													<p>
+														Dbamy o naszych małych klientów i podchodzimy do nich z sercem. Zapewniamy spokojną i pełną szacunku opiekę podczas
+														zabiegów pielęgnacji. Zależy nam aby każda wizyta była dla zwierzątka przyjemna i pomogła oswoić się z miejscem, ludźmi
+														oraz nowymi doświadczeniami.
+													</p>
+												</div>
+												<div class="divider-xl-55"></div>
+												<div class="divider-30 hidden-xl"></div>
+												<div class="intro-layer buttons-layer d-flex flex-wrap">
+													<a href="#offer" class="btn btn-maincolor ">O nas</a>
+													<a href="#why" class="btn btn-outline-maincolor ">Kontakt</a>
+												</div>
+											</div> <!-- eof .intro_layers -->
+										</div> <!-- eof .intro_layers_wrapper -->
+									</div> <!-- eof .col-* -->
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+						<li class="ds s-overlay cover-image text-center">
+							<img src="images/slide02.jpg" alt="img">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="intro_layers_wrapper intro_text_bottom">
+											<div class="intro_layers">
+												<div class="intro-layer">
+													<h2 style="color: #97c139;">
+														Dlaczego my
+													</h2>
+												</div>
+												<div class="intro-layer hidden-below-sm mt-22">
+													<p>
+														Jesteśmy dumni z tego, że traktujemy Twoje zwierzęta z taką samą dobrocią i uczuciem, jakie otrzymują w domu. Nasze
+														usługi w zakresie pielęgnacji zwierząt obejmują opiekę dzienną, wyżywienie, pielęgnację i usługi spa.
+													</p>
+												</div>
+												<div class="divider-xl-55"></div>
+												<div class="divider-30 hidden-xl"></div>
+												<div class="intro-layer buttons-layer d-flex flex-wrap">
+													<a href="#offer" class="btn btn-maincolor">O nas</a>
+													<a href="#why" class="btn btn-outline-maincolor">Kontakt</a>
+												</div>
+											</div> <!-- eof .intro_layers -->
+										</div> <!-- eof .intro_layers_wrapper -->
+									</div> <!-- eof .col-* -->
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+						<li class="ds s-overlay cover-image text-center">
+							<img src="images/slide03.jpg" alt="img">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="intro_layers_wrapper intro_text_bottom">
+											<div class="intro_layers">
+												<div class="intro-layer">
+													<h2 style="color: #97c139;">
+														Doświadczenie
+													</h2>
+												</div>
+												<div class="intro-layer hidden-below-sm mt-22">
+													<p>
+														Nasz salon istnieje na rynku od 2008 roku. W tym czasie uzyskaliśmy wielu zadowolonych klientów z Polski i z zagranicy.
+														Nasze wieloletnie doświadczenie pozwala nam nadawać usługi groomerskie z pełnym zaangażowniem oraz profesjonalizmem.
+													</p>
+												</div>
+												<div class="divider-xl-55"></div>
+												<div class="divider-30 hidden-xl"></div>
+												<div class="intro-layer buttons-layer d-flex flex-wrap">
+													<a href="#offer" class="btn btn-maincolor">O nas</a>
+													<a href="#why" class="btn btn-outline-maincolor">Kontakt</a>
+												</div>
+											</div> <!-- eof .intro_layers -->
+										</div> <!-- eof .intro_layers_wrapper -->
+									</div> <!-- eof .col-* -->
+								</div><!-- eof .row -->
+							</div><!-- eof .container-fluid -->
+						</li>
+					</ul>
+				</div> <!-- eof flexslider -->
+			</section>
+			<section id="offer" class="section-offers ls s-py-60 s-py-md-90 s-py-xl-160">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-xl-8 offset-xl-2 text-center mt--5">
+							<h3 class="special-heading" style="color: #97c139;">Nasza oferta</h3>
+							<div class="mt-100 hidden-below-xl"></div>
+							<div class="mt-55 hidden-above-xl"></div>
+						</div>
+						<div class="row c-gutter-40">
+							<div class="col-xl-4 col-md-6 left">
+								<div class="media icon-special text-xl-right">
+									<div class="media-body">
+										<h5 class="links-darkgrey">
+											<a href="#">Trymowanie</a>
+										</h5>
+									</div>
+									<div class="icon-styled">
+										<img src="images/icons/icon-1.jpg" alt="img" style="border-radius: 50%;">
+									</div>
+								</div>
+								<div class="mt-55 hidden-below-lg"></div>
+								<div class="mt-40 hidden-above-lg"></div>
+								<div class="media icon-special  text-xl-right">
+									<div class="media-body">
+										<h5 class="links-darkgrey">
+											<a href="#">Kąpiel i czesanie</a>
+										</h5>
+										
+									</div>
+									<div class="icon-styled">
+										<img src="images/icons/icon-2.jpg" alt="img" style="border-radius: 50%;">
+									</div>
+								</div>
+								<div class="mt-55 hidden-below-lg"></div>
+								<div class="mt-40 hidden-above-lg"></div>
+								<div class="media icon-special text-xl-right">
+									<div class="media-body">
+										<h5 class="links-darkgrey">
+											<a href="#">Strzyżenie psów i kotów</a>
+										</h5>
+										<p style="color: transparent;">
+											We use modern management, and classical counter techniques.
+										</p>
+									</div>
+									<div class="icon-styled">
+										<img src="images/icons/icon-3.jpg" alt="img" style="border-radius: 50%;">
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 hidden-below-xl"></div>
+							<div class="col-xl-4 col-md-6 mt-40 mt-md-0" >
+								<div class="media icon-special ml-xl-4">
+									<div class="icon-styled">
+										<img src="images/icons/icon-4.jpg" alt="img" style="border-radius: 50%;">
+									</div>
+									<div class="media-body">
+										<h5 class="links-darkgrey">
+											<a href="service-single.html">Obcinanie pazurków</a>
+										</h5>
+										
+									</div>
+								</div>
+								<div class="mt-55 hidden-below-lg"></div>
+								<div class="mt-40 hidden-above-lg"></div>
+								<div class="media icon-special ml-xl-4">
+									<div class="icon-styled">
+										<img src="images/icons/icon-5.jpg" alt="img" style="border-radius: 50%;">
+									</div>
+									<div class="media-body">
+										<h5 class="links-darkgrey">
+											<a href="service-single.html">Higiena uszu</a>
+										</h5>
+										
+									</div>
+								</div>
+								<div class="mt-55 hidden-below-lg"></div>
+								<div class="mt-40 hidden-above-lg"></div>
+								<div class="media icon-special ml-xl-4" >
+									<div class="icon-styled">
+										<img src="images/icons/icon-6.jpg" alt="img" style="border-radius: 50%;">
+									</div>
+									<div class="media-body">
+										<h5 class="links-darkgrey">
+											<a href="service-single.html">Pielęgnacja oczu</a>
+										</h5>
+										<p style="color: transparent;">
+											We use modern management, and classical counter techniques. sdfsdfsdfsdf
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mt-80 hidden-below-xl"></div>
+				</div>
+			</section>
+
+			<section id="progress" class="why-section back-bg2 container-px-0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="embed-responsive embed-responsive-3by2">
+								
+							</div>
+						</div>
+						<div class="col-lg-6 ">
+							<div class="right-section">
+								<p class="top-subtitle" >Czemu ludzie</p>
+								<h3 class="special-heading" style="color: #97c139;">wybierają nas?</h3>
+								<div class="media icon-special">
+									<div class="icon-styled">
+										<img src="images/icons/lapka-lewa.png" alt="img">
+									</div>
+									<div class="media-body">
+										<p>
+											Zapewniamy spokojną i pełną szacunku opiekę podczas zabiegów pielęgnacji. Można u nas zostać z pupilem na czas
+											strzyżenia czy kąpieli.
+										</p>
+									</div>
+								</div>
+								<div class="media icon-special">
+									<div class="icon-styled">
+										<img src="images/icons/lapka-prawa.png" alt="img">
+									</div>
+									<div class="media-body">
+										
+										<p>
+											Oferujemy środki i akcesoria do pielęgnacji zwierząt.
+										</p>
+									</div>
+								</div>
+								<div class="media icon-special">
+									<div class="icon-styled">
+										<img src="images/icons/lapka-lewa.png" alt="img">
+									</div>
+									<div class="media-body">
+										
+										<p>
+											Jako miłośnicy psów na pierwszym miejscu stawiamy dobro naszych klientów. Każdy piesek czy kotek, który odwiedzi nasz
+											salon, będzie traktowany jak własny, z miłością i dobrem. <br>
+											Cena jest zawsze ustalana indywidualnie, w zależności od wielkości pupila oraz stanu włosków.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="quote" class="ls s-py-60 s-py-md-90 s-py-xl-160 testimonials-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="owl-carousel" data-loop="false" data-margin="30" data-nav="false" data-dots="true"
+								data-center="false" data-items="1" data-autoplay="true" data-responsive-xs="1"
+								data-responsive-sm="1" data-responsive-md="1" data-responsive-lg="1">
+								<blockquote class="quote-item">
+									
+									<h5>Tomasz Marosz</h5>
+									<p class="type color-main">
+										klient
+									</p>
+									<p>
+										Wspaniałe miejsce,życzliwa i profesjonalna obsługa,wyjątkowe podejście do pieska i właścicieli;pozdrawiam serdecznie i
+										jeszcze raz dziękuję!
+									</p>
+								</blockquote>
+								<blockquote class="quote-item">
+									
+									<h5>Danuta Paczocha</h5>
+									<p class="type color-main">
+										klient
+									</p>
+									<p>
+										Prześlicznie zrobiony piesek. Jestem bardzo bardzo zadowolena. Pozdrawiam i do zobaczenie niedługo :)
+									</p>
+								</blockquote>
+								<blockquote class="quote-item">
+									
+									<h5>Martyna Fryc</h5>
+									<p class="type color-main">
+										klient
+									</p>
+									<p>
+										Świetny salon, pięknie ostrzyżony york. Miejsce przyjazne zwierzaczkom, polecam z pełna odpowiedzialnością.
+									</p>
+								</blockquote>
+								<blockquote class="quote-item">
+								
+									<h5>Dariusz Fortuniak</h5>
+									<p class="type color-main">
+										klient
+									</p>
+									<p>
+										Fajne miejsce przyjazne zwierzakom. Byliśmy z polecenia sąsiadki, która chodzi tam już od dłuższego czasu. Ostrzygliśmy
+										ładnie naszego maltańczyka.Dobre podejście do klienta a przede wszystkim do psów.
+									</p>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section id="featured" class="ds ms c-gutter-0 container-px-0">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<div class="owl-carousel small-gallery-carousel" data-margin="0" data-responsive-lg="5" data-responsive-md="4" data-responsive-sm="3" data-responsive-xs="2" data-nav="false" data-loop="true">
+								
+								<a href="images/square/3.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/3.jpg" alt="img">
+								</a>
+								<a href="images/square/4.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/4.jpg" alt="img">
+								</a>
+								<a href="images/square/6.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/6.jpg" alt="img">
+								</a>
+								<a href="images/square/7.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/7.jpg" alt="img">
+								</a>
+								<a href="images/square/2.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/2.jpg" alt="img">
+								</a>
+								<a href="images/square/1.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/1.jpg" alt="img">
+								</a>
+								<a href="images/square/8.jpg" class="photoswipe-link" data-width="600" data-height="600">
+									<img src="images/square/8.jpg" alt="img">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+			<footer id="why" class="page_footer ds s-pb-35 s-pt-60 s-pb-md-70 s-pt-md-90 s-pb-xl-130 s-pt-xl-160 c-mb-20 c-gutter-30 container-px-0">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 text-center align-items-center text-lg-left animate" data-animation="fadeInUp">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2559.330550283203!2d21.6595468!3d50.0988196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d0520f98d07ed%3A0x4e44d341deaeba48!2sSalon%20Groomerski%20Festor%20Canis!5e0!3m2!1spl!2spl!4v1601366146728!5m2!1spl!2spl"
+								width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+								tabindex="0"></iframe>
+						</div>
+						<div class="col-lg-3 text-center align-items-center text-lg-left animate" data-animation="fadeInUp">
+							<h4 style="color: #97c139;">My w Google Maps</h4>
+							<img src="images/qr-code.png" alt="">
+						</div>
+						<div class="col-lg-5 text-center text-lg-center animate" data-animation="fadeInUp">
+
+							<div class="widget widget_icons_list">
+								<h3 class="widget-title" style="color: #97c139;">Kontakt</h3>
+
+								<ul class="mb-10">
+									<li class="icon-inline">
+										<div class="icon-styled icon-top color-main4 fs-14">
+											<i class="fa fa-map-marker"></i>
+										</div>
+										<p>Ul. Jastrzębia 3, 39-120 Sędziszów Małopolski 
+											
+										</p>
+									</li>
+									<li class="icon-inline">
+										<div class="icon-styled icon-top color-main4 fs-14">
+											<i class="fa fa-envelope"></i>
+										</div>
+										<a href="mailto:biuro@festor.com.pl">biuro@festor.com.pl</a>
+									</li>
+									<li class="icon-inline">
+										<div class="icon-styled icon-top color-main4 fs-14">
+											<i class="fa fa-phone"></i>
+										</div>
+										<a href="tel:+48507029815">+48 507 029 816</a>
+									</li>
+									<li class="icon-inline">
+										<div class="icon-styled icon-top color-main4 fs-14">
+											<i class="fa fa-clock-o"></i>
+										</div>
+										<p>Godziny otwarcia – 08:00 – 20:00</p>
+									</li>
+								</ul>
+								
+								
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+			</footer>
+
+			<section class="page_copyright ds s-py-5">
+				<div class="container border-top-color">
+					<div class="row align-items-center ">
+						<div class="divider-20 d-none d-lg-block"></div>
+						<div class="divider-10 d-none d-md-block d-lg-none"></div>
+						<div class="col-md-12 text-center">
+							<p>&copy; Copyright <span class="copyright_year">2020</span> All Rights Reserved</p>
+						</div>
+						<div class="divider-20 d-none d-lg-block"></div>
+						<div class="divider-10 d-none d-md-block d-lg-none"></div>
+					</div>
+				</div>
+			</section>
+
+
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/switcher.js"></script>
+
+</body>
+
+</html>
